@@ -51,7 +51,7 @@ function App() {
           <Route exact path={"/restaurants"} element={ <RestaurantsList/> } />
           <Route 
             path="/restaurants/:id/review"
-            element={<AddReview user={user} />}
+            element={<AddReview user={user}/>}
           />
           <Route 
             path="/restaurants/:id"
